@@ -1,0 +1,120 @@
+.App {
+  text-align: center;
+  background-color: rgb(31, 31, 31);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(186, 255, 195);
+}
+
+.App-header {
+  padding: 2rem;
+}
+
+h1 {
+  margin-bottom: 2rem;
+}
+
+.bridge-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+label {
+  align-self: flex-start;
+}
+
+input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid rgb(186, 255, 195);
+  background-color: rgb(51, 51, 51);
+  color: rgb(186, 255, 195);
+  border-radius: 4px;
+}
+
+.bridge-button {
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background-color: rgb(186, 255, 195);
+  color: rgb(31, 31, 31);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.bridge-button:hover {
+  background-color: rgb(156, 225, 165);
+}
+
+.metamask-connection {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
+
+.metamask-connection button {
+  background-color: rgb(186, 255, 195);
+  color: rgb(31, 31, 31);
+  border: none;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.metamask-connection button:hover {
+  background-color: rgb(156, 225, 165);
+}
+
+.metamask-connection p {
+  color: rgb(186, 255, 195);
+  font-weight: bold;
+}
+
+.toast {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px 20px;
+  border-radius: 4px;
+  color: rgb(31, 31, 31);
+  font-weight: bold;
+  z-index: 1000;
+}
+
+.toast.success {
+  background-color: rgb(186, 255, 195);
+}
+
+.toast.error {
+  background-color: #ff6b6b;
+}
+
+.balance-check {
+  margin-top: 2rem;
+}
+
+.balance-check a {
+  color: rgb(186, 255, 195);
+  text-decoration: none;
+  border: 1px solid rgb(186, 255, 195);
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.balance-check a:hover {
+  background-color: rgb(186, 255, 195);
+  color: rgb(31, 31, 31);
+}
