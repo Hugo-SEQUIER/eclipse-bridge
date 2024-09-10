@@ -91,6 +91,14 @@ function App() {
           </div>
         )}
       </header>
+      <div className="bottom-left">
+        <img src="/eclipse-logo.jpg" alt="Eclipse Logo" className="eclipse-logo" />
+      </div>
+      <div className="bottom-right">
+        <a href="https://linktr.ee/sequierh" target="_blank" rel="noopener noreferrer">
+          <img src="/linktree-logo.png" alt="Linktree" className="linktree-logo" />
+        </a>
+      </div>
     </div>
   );
 }
